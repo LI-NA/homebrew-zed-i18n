@@ -1,7 +1,7 @@
 cask "zed-i18n" do
   arch arm: "aarch64", intel: "x86_64"
-  version "1.16.2,1"
-  sha256 arm: "3d206f42568206d97b446ceebc6088f4f25b4a6129aab97478bc37b68769dbce", intel: "a36c610f8af4578285965e71c5c223777c0ef1e8fd943b507980c84277c753e8"
+  version "1.16.3,1"
+  sha256 arm: "3c10447998706520fe3ff3e7154b66e2e0bbc0c2b819b83e65c2c68249447d8d", intel: "21246a920a1e380f101b841c6ce4e37181312e42de7a7915251c990eabd573cb"
 
   url "https://github.com/LI-NA/zed-i18n/releases/download/v#{version.csv.first}-i18n.#{version.csv.second}/Zed-i18n-macos-#{arch}.dmg"
   name "Zed i18n"
